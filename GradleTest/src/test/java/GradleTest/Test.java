@@ -22,7 +22,7 @@ public class Test {
     	driver.findElement(By.id("createMarketingCampaignForm_fromDate")).sendKeys("03/12/20");
     	WebElement hour=driver.findElement(By.name("fromDate_c_hour"));
     	WebElement min=driver.findElement(By.name("fromDate_c_minutes"));
-    	WebElement ampm=driver.findElement(By.name("fromDate_c_ampm"));
+    	//WebElement ampm=driver.findElement(By.name("fromDate_c_ampm");
     	Select hr=new Select(hour);
     	Select mi=new Select(min);
     	Select ap=new Select(ampm);
