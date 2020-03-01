@@ -25,10 +25,10 @@ public class Test {
     	//WebElement ampm=driver.findElement(By.name("fromDate_c_ampm");
     	Select hr=new Select(hour);
     	Select mi=new Select(min);
-    	Select ap=new Select(ampm);
+    	//Select ap=new Select(ampm);
     	hr.selectByVisibleText("9");
     	mi.selectByVisibleText("56");
-    	ap.selectByVisibleText("PM");
+    	//ap.selectByVisibleText("PM");
     	
     	
 
